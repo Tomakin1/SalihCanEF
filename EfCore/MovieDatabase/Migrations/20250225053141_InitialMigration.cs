@@ -12,10 +12,11 @@ namespace MovieDatabase.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.EnsureSchema(
-                name: "ef");
+                name: "dbo");
 
             migrationBuilder.CreateTable(
                 name: "Actors",
+                schema: "dbo",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -32,6 +33,7 @@ namespace MovieDatabase.Migrations
 
             migrationBuilder.CreateTable(
                 name: "Directors",
+                schema: "dbo",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -48,7 +50,7 @@ namespace MovieDatabase.Migrations
 
             migrationBuilder.CreateTable(
                 name: "Genres",
-                schema: "ef",
+                schema: "dbo",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -64,6 +66,7 @@ namespace MovieDatabase.Migrations
 
             migrationBuilder.CreateTable(
                 name: "Movies",
+                schema: "dbo",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -81,13 +84,14 @@ namespace MovieDatabase.Migrations
                     table.ForeignKey(
                         name: "FK_Movies_Directors_DirectorId",
                         column: x => x.DirectorId,
+                        principalSchema: "dbo",
                         principalTable: "Directors",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Movies_Genres_GenreId",
                         column: x => x.GenreId,
-                        principalSchema: "ef",
+                        principalSchema: "dbo",
                         principalTable: "Genres",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -95,6 +99,7 @@ namespace MovieDatabase.Migrations
 
             migrationBuilder.CreateTable(
                 name: "MovieActors",
+                schema: "dbo",
                 columns: table => new
                 {
                     ActorsId = table.Column<int>(type: "int", nullable: false),
@@ -106,12 +111,14 @@ namespace MovieDatabase.Migrations
                     table.ForeignKey(
                         name: "FK_MovieActors_Actors_ActorsId",
                         column: x => x.ActorsId,
+                        principalSchema: "dbo",
                         principalTable: "Actors",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_MovieActors_Movies_MoviesId",
                         column: x => x.MoviesId,
+                        principalSchema: "dbo",
                         principalTable: "Movies",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -119,16 +126,19 @@ namespace MovieDatabase.Migrations
 
             migrationBuilder.CreateIndex(
                 name: "IX_MovieActors_MoviesId",
+                schema: "dbo",
                 table: "MovieActors",
                 column: "MoviesId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Movies_DirectorId",
+                schema: "dbo",
                 table: "Movies",
                 column: "DirectorId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Movies_GenreId",
+                schema: "dbo",
                 table: "Movies",
                 column: "GenreId");
         }
@@ -137,20 +147,24 @@ namespace MovieDatabase.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "MovieActors");
+                name: "MovieActors",
+                schema: "dbo");
 
             migrationBuilder.DropTable(
-                name: "Actors");
+                name: "Actors",
+                schema: "dbo");
 
             migrationBuilder.DropTable(
-                name: "Movies");
+                name: "Movies",
+                schema: "dbo");
 
             migrationBuilder.DropTable(
-                name: "Directors");
+                name: "Directors",
+                schema: "dbo");
 
             migrationBuilder.DropTable(
                 name: "Genres",
-                schema: "ef");
+                schema: "dbo");
         }
     }
 }

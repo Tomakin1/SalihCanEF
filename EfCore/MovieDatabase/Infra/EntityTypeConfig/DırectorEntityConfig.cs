@@ -12,7 +12,7 @@ namespace MovieDatabase.Infra.EntityTypeConfig
     {
         public override void Configure(EntityTypeBuilder<DirectorEntity> builder)
         {
-
+            builder.Property(i => i.NewFullName).IsRequired().HasMaxLength(50);
 
 
             base.Configure(builder);

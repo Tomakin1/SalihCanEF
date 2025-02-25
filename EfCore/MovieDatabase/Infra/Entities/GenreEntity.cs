@@ -9,7 +9,7 @@ namespace MovieDatabase.Infra.Entities
 {
     public class GenreEntity : BaseEntity
     {
-        public int Name { get; set; }
+        public string Name { get; set; } 
 
         public virtual ICollection<MovieEntity> Movies { get; set; }
     }

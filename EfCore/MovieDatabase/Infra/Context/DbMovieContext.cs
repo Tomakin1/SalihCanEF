@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
 using MovieDatabase.Infra.Context;
 using MovieDatabase.Infra.Entities;
 using MovieDatabase.Infra.EntityTypeConfig;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace MovieDatabase.Infra.Context
 {
-    internal class DbMovieContext : DbContext
+    public class DbMovieContext : DbContext
     {
 
         public DbMovieContext(DbContextOptions<DbMovieContext> options) : base(options)
@@ -22,7 +23,7 @@ namespace MovieDatabase.Infra.Context
 
         public DbMovieContext()
         {
-            
+
         }
 
         public DbSet<MovieEntity> Movies { get; set; }
@@ -33,6 +34,7 @@ namespace MovieDatabase.Infra.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.HasDefaultSchema("dbo");
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(MovieEntityTypeConfig).Assembly);
         }
 
@@ -45,22 +47,26 @@ namespace MovieDatabase.Infra.Context
     }
 }
 
-
 public class DbContextFactory : IDesignTimeDbContextFactory<DbMovieContext>
 {
     public DbMovieContext CreateDbContext(string[] args)
     {
-        var basePath = Directory.GetCurrentDirectory(); // Geçerli çalışma dizinini al
-        var config = new ConfigurationBuilder()
-            .SetBasePath(basePath) // appsettings.json dosyasını bulabilmesi için base path ekle
-            .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-            .Build();
 
+        var config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
         var connStr = config.GetConnectionString("dockerConnection");
 
         var optionsBuilder = new DbContextOptionsBuilder<DbMovieContext>();
-        optionsBuilder.UseSqlServer(connStr); // Bağlantıyı kullan
+        optionsBuilder.UseSqlServer(connStr);
 
-        return new DbMovieContext(optionsBuilder.Options); // Yeni bir DbContext örneği döndür
+        return new DbMovieContext(optionsBuilder.Options);
     }
 }
+                    
+
+
+
+
+
+
+
+

@@ -12,14 +12,15 @@ using MovieDatabase.Infra.Context;
 namespace MovieDatabase.Migrations
 {
     [DbContext(typeof(DbMovieContext))]
-    [Migration("20250224185749_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20250225063951_ActionValletAdded")]
+    partial class ActionValletAdded
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
+                .HasDefaultSchema("dbo")
                 .HasAnnotation("ProductVersion", "9.0.2")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
@@ -37,7 +38,7 @@ namespace MovieDatabase.Migrations
 
                     b.HasIndex("MoviesId");
 
-                    b.ToTable("MovieActors", (string)null);
+                    b.ToTable("MovieActors", "dbo");
                 });
 
             modelBuilder.Entity("MovieDatabase.Infra.Entities.ActorEntity", b =>
@@ -51,6 +52,11 @@ namespace MovieDatabase.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("EmailAddress")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
                     b.Property<string>("Firstname")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -62,9 +68,14 @@ namespace MovieDatabase.Migrations
                     b.Property<DateTime?>("ModifiedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("Vallet")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasDefaultValue(1000);
+
                     b.HasKey("Id");
 
-                    b.ToTable("Actors");
+                    b.ToTable("Actors", "dbo");
                 });
 
             modelBuilder.Entity("MovieDatabase.Infra.Entities.DirectorEntity", b =>
@@ -89,9 +100,14 @@ namespace MovieDatabase.Migrations
                     b.Property<DateTime?>("ModifiedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("NewFullName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
                     b.HasKey("Id");
 
-                    b.ToTable("Directors");
+                    b.ToTable("Directors", "dbo");
                 });
 
             modelBuilder.Entity("MovieDatabase.Infra.Entities.GenreEntity", b =>
@@ -115,7 +131,7 @@ namespace MovieDatabase.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Genres", "ef");
+                    b.ToTable("Genres", "dbo");
                 });
 
             modelBuilder.Entity("MovieDatabase.Infra.Entities.MovieEntity", b =>
@@ -154,7 +170,7 @@ namespace MovieDatabase.Migrations
 
                     b.HasIndex("GenreId");
 
-                    b.ToTable("Movies");
+                    b.ToTable("Movies", "dbo");
                 });
 
             modelBuilder.Entity("ActorEntityMovieEntity", b =>

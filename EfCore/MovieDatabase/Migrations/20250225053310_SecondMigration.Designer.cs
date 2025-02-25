@@ -12,14 +12,15 @@ using MovieDatabase.Infra.Context;
 namespace MovieDatabase.Migrations
 {
     [DbContext(typeof(DbMovieContext))]
-    [Migration("20250224190307_ChangeGenreSchema")]
-    partial class ChangeGenreSchema
+    [Migration("20250225053310_SecondMigration")]
+    partial class SecondMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
+                .HasDefaultSchema("dbo")
                 .HasAnnotation("ProductVersion", "9.0.2")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
@@ -37,7 +38,7 @@ namespace MovieDatabase.Migrations
 
                     b.HasIndex("MoviesId");
 
-                    b.ToTable("MovieActors", (string)null);
+                    b.ToTable("MovieActors", "dbo");
                 });
 
             modelBuilder.Entity("MovieDatabase.Infra.Entities.ActorEntity", b =>
@@ -64,7 +65,7 @@ namespace MovieDatabase.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Actors");
+                    b.ToTable("Actors", "dbo");
                 });
 
             modelBuilder.Entity("MovieDatabase.Infra.Entities.DirectorEntity", b =>
@@ -91,7 +92,7 @@ namespace MovieDatabase.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Directors");
+                    b.ToTable("Directors", "dbo");
                 });
 
             modelBuilder.Entity("MovieDatabase.Infra.Entities.GenreEntity", b =>
@@ -115,7 +116,7 @@ namespace MovieDatabase.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Genres", (string)null);
+                    b.ToTable("Genres", "dbo");
                 });
 
             modelBuilder.Entity("MovieDatabase.Infra.Entities.MovieEntity", b =>
@@ -154,7 +155,7 @@ namespace MovieDatabase.Migrations
 
                     b.HasIndex("GenreId");
 
-                    b.ToTable("Movies");
+                    b.ToTable("Movies", "dbo");
                 });
 
             modelBuilder.Entity("ActorEntityMovieEntity", b =>

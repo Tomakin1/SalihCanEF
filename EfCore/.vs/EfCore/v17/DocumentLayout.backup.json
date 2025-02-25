@@ -1,66 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\",
+  "WorkspaceRootPath": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\tomak\\desktop\\ef-core sal\u0130h can\\efcore\\moviedatabase\\infra\\entitytypeconfig\\genreentityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entitytypeconfig\\genreentityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\tomak\\desktop\\ef-core sal\u0130h can\\efcore\\moviedatabase\\infra\\context\\dbmoviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\context\\dbmoviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\tomak\\desktop\\ef-core sal\u0130h can\\efcore\\moviedatabase\\infra\\entities\\movieentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entities\\movieentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\tomak\\desktop\\ef-core sal\u0130h can\\efcore\\moviedatabase\\infra\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\tomak\\desktop\\ef-core sal\u0130h can\\efcore\\moviedatabase\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\tomak\\desktop\\ef-core sal\u0130h can\\efcore\\moviedatabase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\tomak\\desktop\\ef-core sal\u0130h can\\efcore\\moviedatabase\\infra\\entitytypeconfig\\personentitytypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entitytypeconfig\\personentitytypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\tomak\\desktop\\ef-core sal\u0130h can\\efcore\\moviedatabase\\infra\\entitytypeconfig\\baseentitytypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salihcanef\\efcore\\moviedatabase\\infra\\entitytypeconfig\\baseentitytypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entitytypeconfig\\baseentitytypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\tomak\\desktop\\ef-core sal\u0130h can\\efcore\\moviedatabase\\infra\\entitytypeconfig\\actorentitytypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entitytypeconfig\\actorentitytypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\tomak\\desktop\\ef-core sal\u0130h can\\efcore\\moviedatabase\\infra\\entitytypeconfig\\d\u0131rectorentityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entitytypeconfig\\d\u0131rectorentityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\tomak\\desktop\\ef-core sal\u0130h can\\efcore\\moviedatabase\\infra\\entitytypeconfig\\movieentitytypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entitytypeconfig\\movieentitytypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\tomak\\desktop\\ef-core sal\u0130h can\\efcore\\moviedatabase\\infra\\entities\\genreentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entities\\genreentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\tomak\\desktop\\ef-core sal\u0130h can\\efcore\\moviedatabase\\infra\\entities\\directorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salihcanef\\efcore\\moviedatabase\\infra\\entities\\directorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entities\\directorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\tomak\\desktop\\ef-core sal\u0130h can\\efcore\\moviedatabase\\infra\\entities\\actorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salihcanef\\efcore\\moviedatabase\\infra\\entitytypeconfig\\personentitytypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entitytypeconfig\\personentitytypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salihcanef\\efcore\\moviedatabase\\migrations\\20250225054112_actoraddessconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\migrations\\20250225054112_actoraddessconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salihcanef\\efcore\\moviedatabase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salihcanef\\efcore\\moviedatabase\\infra\\datagenerators\\datagenerators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\datagenerators\\datagenerators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salihcanef\\efcore\\moviedatabase\\infra\\entitytypeconfig\\genreentityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entitytypeconfig\\genreentityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salihcanef\\efcore\\moviedatabase\\infra\\entities\\movieentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entities\\movieentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salihcanef\\efcore\\moviedatabase\\infra\\entities\\genreentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entities\\genreentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salihcanef\\efcore\\moviedatabase\\infra\\context\\dbmoviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\context\\dbmoviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salihcanef\\efcore\\moviedatabase\\infra\\entities\\base\\personentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entities\\base\\personentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salihcanef\\efcore\\moviedatabase\\infra\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salihcanef\\efcore\\moviedatabase\\migrations\\20250225063649_directorfullnameconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\migrations\\20250225063649_directorfullnameconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salihcanef\\efcore\\moviedatabase\\migrations\\20250225053710_actoraddressadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\migrations\\20250225053710_actoraddressadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salihcanef\\efcore\\moviedatabase\\infra\\entitytypeconfig\\movieentitytypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entitytypeconfig\\movieentitytypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salihcanef\\efcore\\moviedatabase\\infra\\entitytypeconfig\\d\u0131rectorentityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entitytypeconfig\\d\u0131rectorentityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salihcanef\\efcore\\moviedatabase\\infra\\entitytypeconfig\\actorentitytypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entitytypeconfig\\actorentitytypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salihcanef\\efcore\\moviedatabase\\infra\\entities\\actorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entities\\actorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\tomak\\desktop\\ef-core sal\u0130h can\\efcore\\moviedatabase\\infra\\entities\\base\\personentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\infra\\entities\\base\\personentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\text.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:text.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|c:\\users\\\u00F6mer tomakin\\desktop\\salihcanef\\efcore\\moviedatabase\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{839C0EF5-F192-44BE-BD7B-1D606FA261BF}|MovieDatabase\\MovieDatabase.csproj|solutionrelative:moviedatabase\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,54 +90,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "DataGenerators.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\DataGenerators\\DataGenerators.cs",
+              "RelativeDocumentMoniker": "MovieDatabase\\Infra\\DataGenerators\\DataGenerators.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\DataGenerators\\DataGenerators.cs",
+              "RelativeToolTip": "MovieDatabase\\Infra\\DataGenerators\\DataGenerators.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAxwDYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T06:57:32.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250225063649_DirectorFullNameConfig.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Migrations\\20250225063649_DirectorFullNameConfig.cs",
+              "RelativeDocumentMoniker": "MovieDatabase\\Migrations\\20250225063649_DirectorFullNameConfig.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Migrations\\20250225063649_DirectorFullNameConfig.cs",
+              "RelativeToolTip": "MovieDatabase\\Migrations\\20250225063649_DirectorFullNameConfig.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T06:37:37.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "text.txt",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\text.txt",
+              "RelativeDocumentMoniker": "text.txt",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\text.txt",
+              "RelativeToolTip": "text.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-02-25T05:53:49.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250225054112_ActorAddessConfig.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Migrations\\20250225054112_ActorAddessConfig.cs",
+              "RelativeDocumentMoniker": "MovieDatabase\\Migrations\\20250225054112_ActorAddessConfig.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Migrations\\20250225054112_ActorAddessConfig.cs",
+              "RelativeToolTip": "MovieDatabase\\Migrations\\20250225054112_ActorAddessConfig.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIBBwBMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T05:41:23.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250225053710_ActorAddressAdded.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Migrations\\20250225053710_ActorAddressAdded.cs",
+              "RelativeDocumentMoniker": "MovieDatabase\\Migrations\\20250225053710_ActorAddressAdded.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Migrations\\20250225053710_ActorAddressAdded.cs",
+              "RelativeToolTip": "MovieDatabase\\Migrations\\20250225053710_ActorAddressAdded.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T05:37:14.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\appsettings.json",
+              "RelativeDocumentMoniker": "MovieDatabase\\appsettings.json",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\appsettings.json",
+              "RelativeToolTip": "MovieDatabase\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-25T05:04:18.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Program.cs",
               "RelativeDocumentMoniker": "MovieDatabase\\Program.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Program.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Program.cs",
               "RelativeToolTip": "MovieDatabase\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T18:26:44.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\appsettings.json",
-              "RelativeDocumentMoniker": "MovieDatabase\\appsettings.json",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\appsettings.json",
-              "RelativeToolTip": "MovieDatabase\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-24T17:24:04.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "DbMovieContext.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\Context\\DbMovieContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\Context\\DbMovieContext.cs",
               "RelativeDocumentMoniker": "MovieDatabase\\Infra\\Context\\DbMovieContext.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\Context\\DbMovieContext.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\Context\\DbMovieContext.cs",
               "RelativeToolTip": "MovieDatabase\\Infra\\Context\\DbMovieContext.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAA+wDAAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAiwCYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T17:19:38.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "PersonEntityTypeConfig.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\PersonEntityTypeConfig.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\PersonEntityTypeConfig.cs",
               "RelativeDocumentMoniker": "MovieDatabase\\Infra\\EntityTypeConfig\\PersonEntityTypeConfig.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\PersonEntityTypeConfig.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\PersonEntityTypeConfig.cs",
               "RelativeToolTip": "MovieDatabase\\Infra\\EntityTypeConfig\\PersonEntityTypeConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -126,76 +211,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "GenreEntityConfig.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\GenreEntityConfig.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\GenreEntityConfig.cs",
               "RelativeDocumentMoniker": "MovieDatabase\\Infra\\EntityTypeConfig\\GenreEntityConfig.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\GenreEntityConfig.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\GenreEntityConfig.cs",
               "RelativeToolTip": "MovieDatabase\\Infra\\EntityTypeConfig\\GenreEntityConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA0wBkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T17:18:14.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "D\u0131rectorEntityConfig.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\D\u0131rectorEntityConfig.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\D\u0131rectorEntityConfig.cs",
               "RelativeDocumentMoniker": "MovieDatabase\\Infra\\EntityTypeConfig\\D\u0131rectorEntityConfig.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\D\u0131rectorEntityConfig.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\D\u0131rectorEntityConfig.cs",
               "RelativeToolTip": "MovieDatabase\\Infra\\EntityTypeConfig\\D\u0131rectorEntityConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAzwBIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T16:11:50.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "BaseEntityTypeConfig.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\BaseEntityTypeConfig.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\BaseEntityTypeConfig.cs",
               "RelativeDocumentMoniker": "MovieDatabase\\Infra\\EntityTypeConfig\\BaseEntityTypeConfig.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\BaseEntityTypeConfig.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\BaseEntityTypeConfig.cs",
               "RelativeToolTip": "MovieDatabase\\Infra\\EntityTypeConfig\\BaseEntityTypeConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T16:11:48.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "GenreEntity.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\Entities\\GenreEntity.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\Entities\\GenreEntity.cs",
               "RelativeDocumentMoniker": "MovieDatabase\\Infra\\Entities\\GenreEntity.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\Entities\\GenreEntity.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\Entities\\GenreEntity.cs",
               "RelativeToolTip": "MovieDatabase\\Infra\\Entities\\GenreEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T16:11:40.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
               "Title": "PersonEntity.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\Entities\\Base\\PersonEntity.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\Entities\\Base\\PersonEntity.cs",
               "RelativeDocumentMoniker": "MovieDatabase\\Infra\\Entities\\Base\\PersonEntity.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\Entities\\Base\\PersonEntity.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\Entities\\Base\\PersonEntity.cs",
               "RelativeToolTip": "MovieDatabase\\Infra\\Entities\\Base\\PersonEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T16:11:23.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\Entities\\Base\\BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\Entities\\Base\\BaseEntity.cs",
               "RelativeDocumentMoniker": "MovieDatabase\\Infra\\Entities\\Base\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\Entities\\Base\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\Entities\\Base\\BaseEntity.cs",
               "RelativeToolTip": "MovieDatabase\\Infra\\Entities\\Base\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -204,65 +289,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "ActorEntity.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\Entities\\ActorEntity.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\Entities\\ActorEntity.cs",
               "RelativeDocumentMoniker": "MovieDatabase\\Infra\\Entities\\ActorEntity.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\Entities\\ActorEntity.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\Entities\\ActorEntity.cs",
               "RelativeToolTip": "MovieDatabase\\Infra\\Entities\\ActorEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T16:04:25.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "ActorEntityTypeConfig.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\ActorEntityTypeConfig.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\ActorEntityTypeConfig.cs",
               "RelativeDocumentMoniker": "MovieDatabase\\Infra\\EntityTypeConfig\\ActorEntityTypeConfig.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\ActorEntityTypeConfig.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\ActorEntityTypeConfig.cs",
               "RelativeToolTip": "MovieDatabase\\Infra\\EntityTypeConfig\\ActorEntityTypeConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowBQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T16:04:55.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "MovieEntityTypeConfig.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\MovieEntityTypeConfig.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\MovieEntityTypeConfig.cs",
               "RelativeDocumentMoniker": "MovieDatabase\\Infra\\EntityTypeConfig\\MovieEntityTypeConfig.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\MovieEntityTypeConfig.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\EntityTypeConfig\\MovieEntityTypeConfig.cs",
               "RelativeToolTip": "MovieDatabase\\Infra\\EntityTypeConfig\\MovieEntityTypeConfig.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAmwBQAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwCoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T15:56:24.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "MovieEntity.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\Entities\\MovieEntity.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\Entities\\MovieEntity.cs",
               "RelativeDocumentMoniker": "MovieDatabase\\Infra\\Entities\\MovieEntity.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\Entities\\MovieEntity.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\Entities\\MovieEntity.cs",
               "RelativeToolTip": "MovieDatabase\\Infra\\Entities\\MovieEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T15:57:16.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "DirectorEntity.cs",
-              "DocumentMoniker": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\Entities\\DirectorEntity.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\Entities\\DirectorEntity.cs",
               "RelativeDocumentMoniker": "MovieDatabase\\Infra\\Entities\\DirectorEntity.cs",
-              "ToolTip": "C:\\Users\\tomak\\Desktop\\EF-CORE SAL\u0130H CAN\\EfCore\\MovieDatabase\\Infra\\Entities\\DirectorEntity.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Tomakin\\Desktop\\SalihCanEF\\EfCore\\MovieDatabase\\Infra\\Entities\\DirectorEntity.cs",
               "RelativeToolTip": "MovieDatabase\\Infra\\Entities\\DirectorEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T15:57:10.299Z",
               "EditorCaption": ""

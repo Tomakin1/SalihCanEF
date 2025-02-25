@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using MovieDatabase.Infra.Entities;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,8 @@ namespace MovieDatabase.Infra.EntityTypeConfig
         public override void Configure(EntityTypeBuilder<ActorEntity> builder)
         {
 
-
+            builder.Property(a => a.EmailAddress).IsRequired().HasMaxLength(50);
+            builder.Property(a => a.Vallet).HasDefaultValue(1000).IsRequired();
 
             base.Configure(builder);
         }

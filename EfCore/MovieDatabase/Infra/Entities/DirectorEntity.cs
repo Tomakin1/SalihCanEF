@@ -9,6 +9,7 @@ namespace MovieDatabase.Infra.Entities
 {
     public class DirectorEntity : PersonEntity
     {
+        public string NewFullName { get; set; }
 
 
         public virtual ICollection<MovieEntity>Movies { get; set; }

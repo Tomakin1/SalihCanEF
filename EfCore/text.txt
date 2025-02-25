@@ -1,0 +1,2 @@
+﻿dotnet ef database update SecondMigration bu migrasyondan sonraki tüm migrasyonlar database update değişiklikleri silindi
+silinen migrasyonları tekrar updateleyerek geri alınan migrasyonları tekrar database push yapılabilir
